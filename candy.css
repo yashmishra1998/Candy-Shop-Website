@@ -1,0 +1,79 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1523992038393-d5ab874a077e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Nunito, sans-serif;
+}
+
+div.row {
+    margin: 0;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: rgba(0,0,0,0.075);
+}
+
+#mainNavbar .nav-link {
+    color: rgba(255,255,255,0.9);
+    text-shadow: 2px 2px 3px #00d4da;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #00D4DA;
+    text-shadow: 2px 2px 2px white;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 5px white
+}
+
+#mainNavbar .navbar-brand .BrandCandyIcon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    opacity: 0.75;
+}
+
+#mainNavbar .navbar-toggler {
+    outline: 0;
+    font-size: 1.5rem;
+    color: #F66895;
+}
+
+.candyNames {
+    font-size: 1.25rem;
+    line-height: 2;
+    color: #F66895;
+    text-shadow: 0 0 10px white;
+}
+
+.moc {
+    color: #F66895;
+    text-shadow: 0 0 10px white;
+    line-height: 2;
+}
+
+.img.candyIcon {
+    width: 50px;
+    height: 50px;
+    opacity: 0.7;
+    margin: 10px 0px;
+}
+
+.rainbowImg, .bowlImg {
+    min-height: 85vh;
+    background-position:center;
+    background-size: cover;
+}
+
+#mainNavbar.scrolled {
+    background: rgba(211, 119, 211, 0.5);
+    transition: 1000ms;
+}
